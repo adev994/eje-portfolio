@@ -776,14 +776,17 @@ collaboration fertile.</span>
                     <div class="col-md-12 text-center pb20">
                     
                         <h2><br><strong>Contact</strong></h2>
-                        <p class="lead">Un projet à nous soumettre ?</p>
                     </div>
 
                     <div class="col-md-8 col-md-offset-2 contact box-style">
                         <div id="message-info"></div>
                         <!-- Forms can be functional only on server. Upload to your server when testing. -->
                         <form  name="contact" method="POST" action="https://formsubmit.co/8c2064e7e83aff5d67bb301ce598c442">
-
+                            <input type="hidden" name="_next" value="https://www.emines-je.com/thanks.html">
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_autoresponse" value="Nous avons bien reçu votre candidature et nous vous en remercions. Nous reviendrons vers vous au plus vite.
+                            https://www.emines-je.com">
+                            <input type="hidden" name="_template" value="table">
                             <div class="col-sm-12">
                                 <input name="name" id="name" placeholder="Your Name *"/>
                             </div>
